@@ -40,7 +40,6 @@ class Tree extends React.Component {
         _this.refs[`item${onDeep+1}`]&&_this.refs[`item${onDeep+1}`].fShowToggle();
         _this.refs[`item${onDeep+2}`]&&_this.refs[`item${onDeep+2}`].fCloseToggle();
         // _this.setState({onDeep: sign+1})
-        debugger;
         var temp = { [`data${onDeep+1}`]:data};
         data&&_this.setState(temp)
 
